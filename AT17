@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    real h, peso
+    cadeia sexo
+    leia(h)
+    leia(sexo)
+    peso = 0.0
+    se (sexo == "M") {
+      peso = (72.7 * h) - 58
+    }
+    se (sexo == "F") {
+      peso = (62.1 * h) - 44.7
+    }
+    escreva(peso)
+  }
+}
