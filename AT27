@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    real ipi, v1, v2, total
+    inteiro c1, q1, c2, q2
+    leia(ipi)
+    leia(c1)
+    leia(v1)
+    leia(q1)
+    leia(c2)
+    leia(v2)
+    leia(q2)
+    total = ((v1 * q1) + (v2 * q2)) * ((ipi / 100) + 1)
+    escreva(total)
+  }
+}
