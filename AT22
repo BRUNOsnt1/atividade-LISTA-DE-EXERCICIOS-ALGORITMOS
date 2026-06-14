@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    real salario, novo, dif
+    inteiro cod
+    leia(salario)
+    leia(cod)
+    se (cod == 101) { novo = salario * 1.10 }
+    se (cod == 102) { novo = salario * 1.20 }
+    se (cod == 103) { novo = salario * 1.30 }
+    se (cod != 101 e cod != 102 e cod != 103) { novo = salario * 1.40 }
+    dif = novo - salario
+    escreva(salario, " ", novo, " ", dif)
+  }
+}
