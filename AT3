@@ -1,0 +1,10 @@
+programa {
+  funcao inicio() {
+    inteiro anos, meses, dias, total
+    leia(anos)
+    leia(meses)
+    leia(dias)
+    total = (anos * 365) + (meses * 30) + dias
+    escreva(total)
+  }
+}
