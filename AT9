@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    real n1, n2, n3, media
+    leia(n1)
+    leia(n2)
+    leia(n3)
+    media = (n1 + n2 + n3) / 3
+    escreva(media, " ")
+    se (media >= 6) {
+      escreva("Aprovado")
+    }
+    se (media < 6) {
+      escreva("reprovado")
+    }
+  }
+}
