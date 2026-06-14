@@ -1,0 +1,31 @@
+programa {
+  funcao inicio() {
+    inteiro codigo
+    real n1, n2, n3, maior, menor1, menor2, media
+    leia(codigo)
+    leia(n1)
+    leia(n2)
+    leia(n3)
+    maior = n1
+    menor1 = n2
+    menor2 = n3
+    se (n2 > maior) {
+      maior = n2
+      menor1 = n1
+      menor2 = n3
+    }
+    se (n3 > maior) {
+      maior = n3
+      menor1 = n1
+      menor2 = n2
+    }
+    media = ((maior * 4) + (menor1 * 3) + (menor2 * 3)) / 10
+    escreva(codigo, " ", n1, " ", n2, " ", n3, " ", media, " ")
+    se (media >= 5) {
+      escreva("APROVADO")
+    }
+    se (media < 5) {
+      escreva("REPROVADO")
+    }
+  }
+}
