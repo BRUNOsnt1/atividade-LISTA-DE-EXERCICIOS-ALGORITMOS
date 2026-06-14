@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro a, b, c, r, s
+    real d
+    leia(a)
+    leia(b)
+    leia(c)
+    r = (a + b) * (a + b)
+    s = (b + c) * (b + c)
+    d = (r + s) / 2.0
+    escreva(d)
+  }
+}
