@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro a, b, c, maior
+    leia(a)
+    leia(b)
+    leia(c)
+    escreva(a, " ", b, " ", c, " ")
+    maior = a
+    se (b > maior) {
+      maior = b
+    }
+    se (c > maior) {
+      maior = c
+    }
+    escreva(maior, " É o maior")
+  }
+}
